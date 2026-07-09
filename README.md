@@ -1,39 +1,41 @@
-﻿# Crime Analysis Dashboard (Power BI)
+﻿# Crime Analysis Dashboard using Power BI
 
-An interactive Power BI dashboard that analyzes crime data across selected Indian states (2014–2025). This repository contains the Power BI report (.pbix), the source dataset (CSV), and preview images used in the README.
+## Purpose
 
-## Contents
-- Dashboard/India Crime Analysis.pbix  — Power BI report file (open with Power BI Desktop)
-- Dataset/Crime Dataset.csv         — Cleaned dataset used for the report
-- images/                          — Dashboard preview images
-- README.md                         — This file
+Crime is one of the major challenges affecting public safety and law enforcement. This project analyzes crime data using Microsoft Power BI and transforms raw data into meaningful insights through interactive visualizations. The dashboard helps identify crime trends, regional crime distribution, crime categories, and case resolution performance, enabling data-driven decision-making.
 
-## About the dataset
-The dataset includes the following columns (example):
-- State, City, Year
-- Crime Category, Crime Type
-- Victim Gender, Victim Age Group
-- Case Status, Chargesheet Status
+---
 
-Data cleaning steps applied:
-- Duplicate removal, missing-value handling, type correction
-- Calculated columns and DAX measures for KPIs
+## Tech Stack
 
-## How to use
-Prerequisite: Power BI Desktop (latest stable recommended).
-1. Open `Dashboard/India Crime Analysis.pbix` in Power BI Desktop.
-2. If asked, update data source to point to `Dataset/Crime Dataset.csv` and refresh.
-3. Interact with slicers (Year, City, State) to explore the visuals.
+- Microsoft Power BI
+- Power Query
+- DAX (Data Analysis Expressions)
+- Microsoft Excel / CSV
 
-## Notes & recommendations
-- The .pbix file may be large; avoid committing large edited PBIX files when updating visuals.
-- If the dataset contains sensitive information, remove or anonymize PII before sharing.
+---
 
-## Contributing
-Pull requests and issues are welcome. For major changes, please open an issue first to discuss proposed changes.
+## Process
 
-## Contact
-Monisha Evangeline — (add preferred contact email or link)
+1. Imported the crime dataset into Power BI.
+2. Cleaned and transformed the data using Power Query.
+3. Created relationships between tables through data modeling.
+4. Developed DAX measures for KPIs and calculated metrics.
+5. Designed interactive dashboards using charts, maps, cards, slicers, and bookmarks.
+6. Analyzed the visualizations to derive meaningful business insights.
 
-## License
-No license file is included in this repository (removed per request). If you want a license added, please indicate which one (e.g., MIT, Apache-2.0).
+---
+
+## Project Insights
+
+- Identified states with the highest and lowest reported crime rates.
+- Analyzed year-wise crime trends to understand changes over time.
+- Compared crime categories to determine the most frequently reported crimes.
+- Evaluated chargesheeting and case closure performance across states.
+- Enabled interactive comparison of crime statistics using filters and slicers.
+
+---
+
+## Final Conclusion
+
+The Crime Analysis Dashboard provides a comprehensive view of crime statistics through interactive visualizations and analytical insights. It enables users to identify crime patterns, compare regional performance, evaluate case resolution, and make informed decisions. This project demonstrates practical skills in data cleaning, data modeling, DAX, and dashboard development using Microsoft Power BI.
